@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  color: white; /* makes text visible */
+}
+
 h1 {
   text-align: center;
 }
