@@ -1,9 +1,13 @@
 body {
-  background: red;
+  background: #FFF;
 }
 
 h1 {
   text-align: center;
-  color: white !important;
-  background-color: black;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
 }
