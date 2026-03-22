@@ -1,13 +1,11 @@
-body {
-  background: #000000;
+html, body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-h1 {
-  text-align: center;
-  color: white;
-}
-
-h2 {
+h1, h2 {
   text-align: center;
   color: white;
 }
