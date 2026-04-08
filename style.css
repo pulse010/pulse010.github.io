@@ -1,22 +1,10 @@
 body {
-  background-color: black;
-  margin: 0;
-  
-  /* Flexbox Centering */
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  
-  /* Standard page setup */
-  min-height: 100vh;       /* Makes the body at least as tall as the screen */
-  color: white;
-  font-family: sans-serif;
+  background-color: #000000;
 }
-
 .main-container {
   border: 2px solid white;
   padding: 40px;
-  max-width: 600px;        /* Limits width for a cleaner "box" look */
-  width: 90%;              /* Ensures it stays within screen on mobile */
-  text-align: center;      /* Centers the text inside the box */
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
 }
