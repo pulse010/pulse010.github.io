@@ -1,15 +1,18 @@
-html, body {
-  background: black;
+/* 1. Make the entire page background black */
+body {
+  background-color: black;
   margin: 0;
-  padding: 0;
-  height: 100%;
+  padding: 20px; /* Gives some breathing room around the box */
+  font-family: sans-serif;
+  color: white; /* Default text color for the page */
 }
 
-h1, h2, h6 {
-  text-align: center;
-  color: white;
-}
-
-i {
-  color: black;
+/* 2. Style the white-bordered box */
+.main-container {
+  background-color: #1a1a1a; /* Optional: slightly lighter black for contrast */
+  border: 2px solid white;    /* The white box border */
+  max-width: 1000px;         /* Prevents the box from getting too wide */
+  margin: 0 auto;            /* Centers the box horizontally */
+  padding: 40px;             /* Space between the border and your text */
+  min-height: 80vh;          /* Ensures the box is tall even with little content */
 }
