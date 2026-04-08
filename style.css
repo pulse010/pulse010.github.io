@@ -1,10 +1,27 @@
-body {
-  background-color: #000000;
+/* Apply to both html and body to ensure no gaps */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Absolute black */
 }
+
+body {
+  /* This ensures the black covers the screen even if you scroll */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  font-family: sans-serif;
+}
+
 .main-container {
   border: 2px solid white;
   padding: 40px;
-  max-width: 600px;
-  width: 90%;
+  width: 80%;       /* Adjust width as needed */
+  max-width: 800px; 
   text-align: center;
+  background-color: black; /* Ensures the inside of the box is also black */
 }
