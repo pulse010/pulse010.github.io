@@ -14,19 +14,19 @@
 }
 
 .col-left {
-  border: 3px solid #00ff00;
+  border: 3px solid rgb(255, 255, 255);
   padding-bottom: 300px;
   padding-top: 50px;
 }
 
 .mid {
-  border: 3px solid #00ff00;
+  border: 3px solid rgb(255, 255, 255);
   padding-bottom: 60%;
   padding-top: 50px;
 }
 
 .col-right {
-  border: 3px solid #00ff00;
+  border: 3px solid rgb(255, 255, 255);
   padding-bottom: 300px;
   padding-top: 50px;
 }
