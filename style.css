@@ -1,27 +1,39 @@
-/* Apply to both html and body to ensure no gaps */
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  max-width: 1450px;
+  margin: 50px auto;
+  margin-top: 100px;
+}
+
+.column {
+  flex: 1;
+  color: white;
+  text-align: center;
+}
+
+.col-left {
+  border: 3px solid white;
+  padding-bottom: 300px;
+  padding-top: 50px;
+}
+
+.mid {
+  border: 3px solid white;
+  padding-bottom: 60%;
+  padding-top: 50px;
+}
+
+.col-right {
+  border: 3px solid white;
+  padding-bottom: 300px;
+  padding-top: 50px;
+}
+
 html, body {
   height: 100%;
   margin: 0;
-  padding: 0;
-  background-color: #000000; /* Absolute black */
-}
-
-body {
-  /* This ensures the black covers the screen even if you scroll */
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  color: white;
-  font-family: sans-serif;
-}
-
-.main-container {
-  border: 2px solid white;
-  padding: 40px;
-  width: 80%;       /* Adjust width as needed */
-  max-width: 800px; 
-  text-align: center;
-  background-color: black; /* Ensures the inside of the box is also black */
+  background-color: black;
+  overflow: auto;
 }
