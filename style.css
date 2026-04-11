@@ -28,7 +28,43 @@
 .col-right {
   border: 3px solid rgb(255, 255, 255);
   padding-bottom: 300px;
-  padding-top: 50px;
+  padding-top: 15px;
+}
+
+.btn-socials {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 12px 24px;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease;
+}
+
+.yt-logo {
+  width: 84px;
+  height: 60px;
+  padding: 5px 5px;
+}
+
+.x-logo {
+  width: 60px;
+  height: 60px;
+  padding: 5px 5px;
+}
+
+.git-logo {
+  width: 70px;
+  height: 70px;
+  padding: 5px 5px;
 }
 
 html, body {
