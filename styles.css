@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+.pfp img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.introduction {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme {
+    padding-left: 20px;
+    color: white;
+}
+
+.title {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
