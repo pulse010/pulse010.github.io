@@ -57,14 +57,15 @@ body {
     padding: 20px;
 }
 
-.youtube {
-    flex-direction: column;
+.youtube img, .github img, .twitter img {
+    width: 100px;
+    height: 100px;    
 }
 
-.github {
+.youtube, .github, .twitter {
+    display: flex;
     flex-direction: column;
-}
-
-.twitter {
-    flex-direction: column;
+    align-items: center; 
+    border: 3px solid white;
+    padding: 10px;
 }
