@@ -1,3 +1,8 @@
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Make link colors match parent element's text color */
+}
+
 body {
     margin: 0;
     display: flex;
@@ -42,4 +47,24 @@ body {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.socials {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.youtube {
+    flex-direction: column;
+}
+
+.github {
+    flex-direction: column;
+}
+
+.twitter {
+    flex-direction: column;
 }
